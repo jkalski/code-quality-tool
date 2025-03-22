@@ -1,42 +1,59 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* Add these styles to your existing app.css */
+.results-container {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  padding: 1rem;
+  font-family: monospace;
+  white-space: pre-wrap;
+  overflow-x: auto;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.result-line {
+  padding: 2px 0;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.error {
+  color: #d32f2f;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.warning {
+  color: #f57c00;
 }
 
-.card {
-  padding: 2em;
+.convention {
+  color: #7b1fa2;
 }
 
-.read-the-docs {
-  color: #888;
+.refactor {
+  color: #0288d1;
+}
+
+.fatal {
+  color: #b71c1c;
+  font-weight: bold;
+}
+
+.success {
+  color: #388e3c;
+  font-weight: bold;
+}
+
+.summary {
+  color: #616161;
+  margin-top: 10px;
+}
+
+.code-editor-container {
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.code-display {
+  margin: 0;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  overflow-x: auto;
 }
