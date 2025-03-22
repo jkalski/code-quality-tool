@@ -1,0 +1,24 @@
+# Frontend
+frontend/node_modules
+frontend/dist
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# For the backend
+backend/venv
+backend/__pycache__
+backend/*.py[cod]
+backend/*$py.class
+backend/*.so
+backend/.env
+backend/.env.local
+backend/.DS_Store
+
+# General
+.DS_Store
